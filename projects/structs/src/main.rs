@@ -24,7 +24,7 @@ fn main() {
         ..user2
     };
 
-    let mess1 = mess(10, String::from("something"), 3.32);
+    let mess1 = Mess(10, String::from("something"), 3.32);
 }
 
 struct User {
